@@ -3,6 +3,6 @@ const arrayDiff = (a, b) =>{
      return result;
 }
 
-const listFiltering = (list) => {
+const filter_list = (list) => {
      return list.filter((el)=> typeof el ==="number") 
 }
