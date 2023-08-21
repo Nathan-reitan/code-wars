@@ -13,3 +13,10 @@ const descendingOrder = (n) => {
 const squareDigits = (num) => {
      return parseInt(num.toString().split('').map(x=>parseInt(x)*parseInt(x)).join(''))
 }
+
+const highAndLow = (numbers) => {
+     const numsArry = numbers.split(" ").sort((a,b)=>{return a-b});
+     let high = numsArry[numsArry.length-1];
+     let low = numsArry[0];
+     return high + " " + low;
+}
