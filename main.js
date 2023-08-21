@@ -9,3 +9,7 @@ const filter_list = (list) => {
 const descendingOrder = (n) => {
      return parseInt(n.toString().split('').sort((a,b)=>{return b-a}).join(''))
 }
+
+const squareDigits = (num) => {
+     return parseInt(num.toString().split('').map(x=>parseInt(x)*parseInt(x)).join(''))
+}
