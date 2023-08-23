@@ -31,5 +31,14 @@ const friend = (friends) => {
 }
 
 const persistence = (num) => {
-     
+     let counter = 0;
+     if(num<10){
+          return counter
+     } else {
+          let string = num.toString();
+          for (let i = 0; i<string.length; i++){
+               
+          }
+          persistence(string)
+     }
 }
