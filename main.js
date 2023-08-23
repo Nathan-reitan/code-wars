@@ -20,3 +20,8 @@ const highAndLow = (numbers) => {
      let low = numsArry[0];
      return high + " " + low;
 }
+
+const sumTwoSmallestNumbers = (numbers) => {  
+     numbers = numbers.sort((a,b) => {return a-b});
+     return numbers[0] + numbers[1];
+   }
