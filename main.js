@@ -29,3 +29,7 @@ const sumTwoSmallestNumbers = (numbers) => {
 const friend = (friends) => {
      return friends.filter((word)=>word.length===4);
 }
+
+const persistence = (num) => {
+     
+}
