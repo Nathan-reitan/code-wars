@@ -24,4 +24,8 @@ const highAndLow = (numbers) => {
 const sumTwoSmallestNumbers = (numbers) => {  
      numbers = numbers.sort((a,b) => {return a-b});
      return numbers[0] + numbers[1];
-   }
+}
+
+const friend = (friends) => {
+     return friends.filter((word)=>word.length===4);
+}
