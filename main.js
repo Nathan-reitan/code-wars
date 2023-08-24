@@ -42,3 +42,12 @@ const persistence = (num) => {
           persistence(string)
      }
 }
+
+const findNextSquare = (sq) => {
+     let root = Math.sqrt(sq);
+     if(Number.isInteger(root)){
+          let newRoot = root+1
+          return newRoot*newRoot;
+     }
+     return -1
+}
